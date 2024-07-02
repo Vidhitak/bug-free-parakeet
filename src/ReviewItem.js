@@ -8,7 +8,6 @@ function ReviewItem({ review }) {
       <p>{review.REVIEW_TEXT}</p>
       <p>Rating: {review.RATING}</p>
       <p>Customer Name: {review.CUSTOMER_NAME}</p>
-      <hr />
     </div>
   );
 }
